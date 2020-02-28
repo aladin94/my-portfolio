@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hey, my name is',
   name: 'Aladin.',
-  subtitle: 'I\'m a Junior Full-Stack Web Developer',
+  subtitle: 'And I\'m a Junior Full-Stack Web Developer',
   cta: 'Learn More',
 };
 
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'me.jpg',
   paragraphOne: 'Thanks for visiting my page! A little about myself.',
-  paragraphTwo: 'I\'m a Web Developer and Programmer living in New York City. Over the past 2 years of self-eduating, I have acquired a wide range of skills in Front-End (JavaScript/React, HTML, CSS) and Backend Development (Node, Express, MongoDB, Rest, SQL, Django).',
+  paragraphTwo: 'I\'m a Web Developer and Programmer living in New York City. Over the past 2 years of self-educating, I have acquired a wide range of skills in Front-End (JavaScript/React, HTML, CSS) and Backend Development (Node, Express, MongoDB, Rest, SQL, Django).',
   paragraphThree: 'My interests include Blogging, Traveling, and Machine Learning. Please check my Github or Resume below!',
   resume: 'https://aladin94.github.io/resume/', 
 };
@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Spotify User GUI',
     info: 'Web App that utilizes the Spotify Developer API to create a music player which shows the current song information that the user is listening to, including Track Title and artist',
     info2: 'Key features include: User Authentication, Spotify API Integration, and a barebones Interface. Created using: JavaScript, React, jQuery, HTML, CSS, AJAX.',
-    url: 'aladin-spotifyplayer.netlify.com',
+    url: 'https://aladin-spotifyplayer.netlify.com',
     repo: 'https://github.com/aladin94/SpotifyPlayer',
   },
   {
@@ -50,7 +50,7 @@ export const projectsData = [
     title: 'Chatterbox',
     info: 'Full-stack chatroom app built using React (frontend) and Node / express (backend).',
     info2: 'Key Features include: User Authentication, Identity Protection, Typing Indicator. Created using: JavaScript, React, Chatkit, Express, RESTful API.',
-    url: 'aladin-chatapp.netlify.com',
+    url: 'https://aladin-chatapp.netlify.com',
     repo: 'https://github.com/aladin94/Chatterbox-Instant-Messaging-App',
   },
 ];
