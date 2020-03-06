@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hey, my name is',
   name: 'Aladin.',
-  subtitle: 'And I\'m a Junior Full-Stack Web Developer',
+  subtitle: 'I\'m a Junior Web Developer',
   cta: 'Learn More',
 };
 
@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'me.jpg',
   paragraphOne: 'Thanks for visiting my page! A little about myself.',
-  paragraphTwo: 'I\'m a Web Developer and Programmer living in New York City. Over the past 2 years of self-educating, I have acquired a wide range of skills in Front-End (JavaScript/React, HTML, CSS) and Backend Development (Node, Express, MongoDB, Rest, SQL, Django).',
+  paragraphTwo: 'I\'m a Web Developer and Programmer living in New York City. Over the past 2 years of self-eduating, I have acquired a wide range of skills in Front-End (JavaScript/React, HTML, CSS) and Backend Development (Node, Express, MongoDB, Rest, SQL, Django).',
   paragraphThree: 'My interests include Blogging, Traveling, and Machine Learning. Please check my Github or Resume below!',
-  resume: 'https://aladin94.github.io/resume/', 
+  resume: 'https://aladin94.github.io/resume/',
 };
 
 // PROJECTS DATA
@@ -37,22 +37,22 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'spotifyexample.png',
-    title: 'Spotify User GUI',
-    info: 'Web App that utilizes the Spotify Developer API to create a music player which shows the current song information that the user is listening to, including Track Title and artist',
-    info2: 'Key features include: User Authentication, Spotify API Integration, and a barebones Interface. Created using: JavaScript, React, jQuery, HTML, CSS, AJAX.',
-    url: 'https://aladin-spotifyplayer.netlify.com',
-    repo: 'https://github.com/aladin94/SpotifyPlayer',
-  },
-  {
-    id: uuidv1(),
     img: 'chatroom.png',
     title: 'Chatterbox',
     info: 'Full-stack chatroom app built using React (frontend) and Node / express (backend).',
     info2: 'Key Features include: User Authentication, Identity Protection, Typing Indicator. Created using: JavaScript, React, Chatkit, Express, RESTful API.',
-    url: 'https://aladin-chatapp.netlify.com',
-    repo: 'https://github.com/aladin94/Chatterbox-Instant-Messaging-App',
+    url: 'https://mychatterboxapp.herokuapp.com/',
+    repo: 'https://github.com/aladin94/Chatterbox',
   },
+  {
+    id: uuidv1(),
+    img: 'spotifyexample.png',
+    title: 'Spotify User GUI',
+    info: 'Web App that utilizes the Spotify Developer API to create a music player which shows the current song information that the user is listening to, including Track Title and artist',
+    info2: 'Key features include: User Authentication, Spotify API Integration, and a barebones Interface. Created using: JavaScript, React, jQuery, HTML, CSS, AJAX.',
+    url: 'https://aladin-spotifyplayer.netlify.com/',
+    repo: 'https://github.com/aladin94/SpotifyPlayer', 
+  }
 ];
 
 // CONTACT DATA
@@ -72,14 +72,14 @@ export const footerData = {
     },
     {
       id: uuidv1(),
-      name: 'github',
-      url: 'https://github.com/aladin94',
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/aladinferatovic/',
     },
     {
       id: uuidv1(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/aladinferatovic/',
-    }
+      name: 'github',
+      url: 'https://github.com/aladin94',
+    },
   ],
 };
 
