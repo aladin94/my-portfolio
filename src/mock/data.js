@@ -24,8 +24,17 @@ export const aboutData = {
   resume: 'https://aladin94.github.io/resume/',
 };
 
-// PROJECTS DATA
+// PROJECTS DATA odinsgrill-portfolio.png
 export const projectsData = [
+  {
+    id: uuidv1(),
+    img: 'odinsgrill-portfolio.png',
+    title: 'OdinsGrill Restaurant',
+    info: 'Front-End website for my favorite restaurant. Utilizes the Google Developer API to incorporate Maps.',
+    info2: 'Key Features include: Desktop-First modern and responsive design, API integration. Created using: JavaScript, HTML5, CSS, Node.',
+    url: 'https://odinsgrill.netlify.app',
+    repo: 'https://github.com/aladin94/Odinsgrill', 
+  },
   {
     id: uuidv1(),
     img: 'frontpagelayout.png',
