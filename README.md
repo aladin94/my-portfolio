@@ -1,5 +1,7 @@
 # My Portfolio Website!
 
-<h1>My Web Developer portfolio. Hosted on Netlify.</h1>
+<h3>My Web Developer portfolio. Hosted on Netlify.</h3>
+
+<img src="portfolio.jpg" width="auto" height="auto" />
 
 
