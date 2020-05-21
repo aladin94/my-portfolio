@@ -36,6 +36,15 @@ export const projectsData = [
     repo: 'https://github.com/aladin94/Odinsgrill', 
   },
   {
+  id: uuidv1(),
+    img: 'rockstarex.png',
+    title: 'Rockstar Games Top 5',
+    info: 'Static Front-End website for Rockstar Games. Utilizes a carousel slideshow, as well as custom-imported Fonts.',
+    info2: 'Key Features include: Swiper API integration, Flexbox. Created using: JavaScript, HTML5, CSS.',
+    url: 'http://rockstarproject.surge.sh',
+    repo: 'https://github.com/aladin94/Rockstar', 
+  },
+  {
     id: uuidv1(),
     img: 'frontpagelayout.png',
     title: 'LyricFinder',
@@ -52,15 +61,6 @@ export const projectsData = [
     info2: 'Key Features include: User Authentication, Identity Protection, Typing Indicator. Created using: JavaScript, React, Chatkit, Express, RESTful API.',
     url: 'https://mychatterboxapp.herokuapp.com/',
     repo: 'https://github.com/aladin94/Chatterbox',
-  },
-  {
-    id: uuidv1(),
-    img: 'spotifyexample.png',
-    title: 'Spotify User GUI',
-    info: 'Web App that utilizes the Spotify Developer API to create a music player which shows the current song information that the user is listening to, including Track Title and artist',
-    info2: 'Key features include: User Authentication, Spotify API Integration, and a barebones Interface. Created using: JavaScript, React, jQuery, HTML, CSS, AJAX.',
-    url: 'https://aladin-spotifyplayer.netlify.com/',
-    repo: 'https://github.com/aladin94/SpotifyPlayer', 
   }
 ];
 
