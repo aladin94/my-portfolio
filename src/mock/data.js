@@ -28,21 +28,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'covidpic.jpg',
+    title: 'Covid Supplies',
+    info: 'Full-Stack E-commerce website based on the Covid-19 Global pandemic.',
+    info2: 'Key Features include: Stripe API integration to authenticate purchases, Swiper API for a Carousel slideshow, EJS file to maintain store items. Created using: JavaScript, Bootstrap, HTML/CSS, Node.',
+    url: 'https://covidsupplies.herokuapp.com',
+    repo: 'https://github.com/aladin94/CovidSupplies', 
+  },
+  {
+  id: uuidv1(),
     img: 'odinsgrill-portfolio.png',
     title: 'OdinsGrill Restaurant',
     info: 'Front-End website for my favorite restaurant. Utilizes the Google Developer API to incorporate Maps.',
     info2: 'Key Features include: Desktop-First modern and responsive design, API integration. Created using: JavaScript, HTML5, CSS, Node.',
     url: 'https://odinsgrill.netlify.app',
-    repo: 'https://github.com/aladin94/Odinsgrill', 
-  },
-  {
-  id: uuidv1(),
-    img: 'rockstarex.png',
-    title: 'Rockstar Games Top 5',
-    info: 'Static Front-End website for Rockstar Games. Utilizes a carousel slideshow, as well as custom-imported Fonts.',
-    info2: 'Key Features include: Swiper API integration, Flexbox. Created using: JavaScript, HTML5, CSS.',
-    url: 'http://rockstarproject.surge.sh',
-    repo: 'https://github.com/aladin94/Rockstar', 
+    repo: 'https://github.com/aladin94/Odinsgrill',
   },
   {
     id: uuidv1(),
