@@ -76,8 +76,8 @@ export const footerData = {
   networks: [
     {
       id: uuidv1(),
-      name: '',
-      url: 'https://helloworldofdata.webnode.com/',
+      name: 'github',
+      url: 'https://github.com/aladin94',
     },
     {
       id: uuidv1(),
@@ -86,8 +86,8 @@ export const footerData = {
     },
     {
       id: uuidv1(),
-      name: 'github',
-      url: 'https://github.com/aladin94',
+      name: '',
+      url: 'https://helloworldofdata.webnode.com/',
     },
   ],
 };
