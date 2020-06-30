@@ -46,6 +46,15 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'namastay.jpg',
+    title: 'NamaStay Calm',
+    info: 'Front-End Meditation website designed to offer users a calming experience.',
+    info2: 'Key Features include: HTML5 Video / Audio, Vanilla JS, Flexbox, Font Awesome Icons. Created using: JavaScript (ES6), HTML, CSS',
+    url: 'http://namastaycalm.surge.sh',
+    repo: 'https://github.com/aladin94/NamaStayCalm', 
+  },
+  {
+    id: uuidv1(),
     img: 'frontpagelayout.png',
     title: 'LyricFinder',
     info: 'Full-stack web app that utilizes the MusixMatch Developer API, as well as Sass and Bootstrap for a modern interface',
