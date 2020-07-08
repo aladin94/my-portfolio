@@ -55,6 +55,15 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'bb.jpg',
+    title: 'Breaking Bad Fansite',
+    info: 'Front-End website based on the hit TV show Breaking Bad.',
+    info2: 'Key Features include: Responsive Mobile/Desktop design, API integration, CSS Grid. Created using: JavaScript, React, Axios, HTML, CSS',
+    url: 'https://breakingbadaf.netlify.app',
+    repo: 'https://github.com/aladin94/BreakingBadProject', 
+  },
+  {
+    id: uuidv1(),
     img: 'frontpagelayout.png',
     title: 'LyricFinder',
     info: 'Full-stack web app that utilizes the MusixMatch Developer API, as well as Sass and Bootstrap for a modern interface',
