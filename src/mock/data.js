@@ -65,7 +65,7 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'snippit.jpg',
-    title: 'Chatterbox',
+    title: 'Chatter-Box',
     info: 'Full-stack chatroom app built using JavaScript (frontend) and Node / express (backend)',
     info2: 'Key Features include: User Authentication, Identity Protection, Typing Indicator. Created using: JavaScript, WebSockets, Express, HTML / CSS',
     url: 'https://chatterbox-messenger-app.herokuapp.com/',
