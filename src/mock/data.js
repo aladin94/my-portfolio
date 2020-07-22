@@ -70,7 +70,7 @@ export const projectsData = [
     info2: 'Key Features include: User Authentication, Identity Protection, Typing Indicator. Created using: JavaScript, WebSockets, Express, HTML / CSS',
     url: 'https://chatterbox-messenger-app.herokuapp.com/',
     repo: 'https://github.com/aladin94/Chatterbox-2.0',
-  }
+  },
   {
     id: uuidv1(),
     img: 'frontpagelayout.png',
