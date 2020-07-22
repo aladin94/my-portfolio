@@ -64,21 +64,21 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'chatbox.jpg',
+    title: 'Chatterbox',
+    info: 'Full-stack chatroom app built using JavaScript (frontend) and Node / express (backend)',
+    info2: 'Key Features include: User Authentication, Identity Protection, Typing Indicator. Created using: JavaScript, WebSockets, Express, HTML / CSS',
+    url: 'https://chatterbox-messenger-app.herokuapp.com/',
+    repo: 'https://github.com/aladin94/Chatterbox-2.0',
+  }
+  {
+    id: uuidv1(),
     img: 'frontpagelayout.png',
     title: 'LyricFinder',
     info: 'Full-stack web app that utilizes the MusixMatch Developer API, as well as Sass and Bootstrap for a modern interface',
     info2: 'Key Features include: Mobile First design, API integration, React Hooks. Created using: JavaScript, React, Axios, HTML5, CSS, Bootstrap, Node',
     url: 'https://aladin-lyricfinder.netlify.com',
     repo: 'https://github.com/aladin94/LyricFinder-Portfolio-Project-', 
-  },
-  {
-    id: uuidv1(),
-    img: 'chatroom.png',
-    title: 'Chatterbox',
-    info: 'Full-stack chatroom app built using React (frontend) and Node / express (backend)',
-    info2: 'Key Features include: User Authentication, Identity Protection, Typing Indicator. Created using: JavaScript, React, Chatkit, Express, RESTful API',
-    url: 'https://mychatterboxapp.herokuapp.com/',
-    repo: 'https://github.com/aladin94/Chatterbox',
   }
 ];
 
