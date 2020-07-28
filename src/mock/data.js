@@ -73,12 +73,12 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'frontpagelayout.png',
-    title: 'LyricFinder',
-    info: 'Full-stack web app that utilizes the MusixMatch Developer API, as well as Sass and Bootstrap for a modern interface',
-    info2: 'Key Features include: Mobile First design, API integration, React Hooks. Created using: JavaScript, React, Axios, HTML5, CSS, Bootstrap, Node',
-    url: 'https://aladin-lyricfinder.netlify.com',
-    repo: 'https://github.com/aladin94/LyricFinder-Portfolio-Project-', 
+    img: 'fullstackfinder.jpg',
+    title: 'FullStack Finder',
+    info: 'Front-End job hunting web app that utilizes the GitHub Jobs API, as well as React Hooks and Bootstrap for a modern interface',
+    info2: 'Key Features include: Flexible Desktop/Mobile design, API integration, React Hooks. Created using: JavaScript, React, Axios, HTML5, CSS, Bootstrap, Node',
+    url: 'https://fullstackfinder.netlify.app/',
+    repo: 'https://github.com/aladin94/fullstack-finder', 
   }
 ];
 
