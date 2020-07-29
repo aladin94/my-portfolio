@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hey, my name is',
-  name: 'Adel.',
-  subtitle: 'I\'m a Fortnite Faggot.',
+  name: 'Aladin.',
+  subtitle: 'I\'m a Web Developer.',
   cta: 'Learn More',
 };
 
@@ -46,15 +46,6 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'namastay.jpg',
-    title: 'NamaStay Calm',
-    info: 'Front-End Meditation website designed to offer users a calming experience',
-    info2: 'Key Features include: HTML5 Video / Audio, Vanilla JS, Flexbox, Font Awesome Icons. Created using: JavaScript (ES6), HTML, CSS',
-    url: 'http://namastaycalm.surge.sh',
-    repo: 'https://github.com/aladin94/NamaStayCalm', 
-  },
-  {
-    id: uuidv1(),
     img: 'bb.jpg',
     title: 'Breaking Bad Fansite',
     info: 'Front-End website based on the hit TV show Breaking Bad',
@@ -79,6 +70,15 @@ export const projectsData = [
     info2: 'Key Features include: Flexible Desktop/Mobile design, API integration, React Hooks. Created using: JavaScript, React, Axios, HTML5, CSS, Bootstrap, Node',
     url: 'https://fullstackfinder.netlify.app/',
     repo: 'https://github.com/aladin94/fullstack-finder', 
+  },
+  {
+    id: uuidv1(),
+    img: 'namastay.jpg',
+    title: 'NamaStay Calm',
+    info: 'Front-End Meditation website designed to offer users a calming experience',
+    info2: 'Key Features include: HTML5 Video / Audio, Vanilla JS, Flexbox, Font Awesome Icons. Created using: JavaScript (ES6), HTML, CSS',
+    url: 'http://namastaycalm.surge.sh',
+    repo: 'https://github.com/aladin94/NamaStayCalm', 
   }
 ];
 
