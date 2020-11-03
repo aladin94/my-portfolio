@@ -26,6 +26,15 @@ export const aboutData = {
 
 // PROJECTS DATA odinsgrill-portfolio.png
 export const projectsData = [
+    {
+    id: uuidv1(),
+    img: 'amagit.png',
+    title: 'Amazon Clone',
+    info: 'Full-Stack E-commerce clone website based on Amazon',
+    info2: 'Key Features include: User Authentication, PayPal Payment Integration, Desktop / Mobile interface. Created using: JavaScript, React, HTML, CSS, Node, FireBase',
+    url: 'https://clonealadin.web.app',
+    repo: 'https://github.com/aladin94/AmazonClone', 
+  },
   {
     id: uuidv1(),
     img: 'covidpic.jpg',
@@ -61,15 +70,6 @@ export const projectsData = [
     info2: 'Key Features include: User Authentication, Identity Protection, Typing Indicator. Created using: JavaScript, WebSockets, Express, HTML / CSS',
     url: 'https://chatterbox-messenger-app.herokuapp.com/',
     repo: 'https://github.com/aladin94/Chatterbox-2.0',
-  },
-  {
-    id: uuidv1(),
-    img: 'fullstackfinder.jpg',
-    title: 'FullStack Finder',
-    info: 'Front-End job hunting web app that utilizes the GitHub Jobs API, as well as React Hooks and Bootstrap for a modern interface',
-    info2: 'Key Features include: Flexible Desktop/Mobile design, API integration, React Hooks. Created using: JavaScript, React, Axios, HTML5, CSS, Bootstrap, Node',
-    url: 'https://fullstackfinder.netlify.app/',
-    repo: 'https://github.com/aladin94/fullstack-finder', 
   },
   {
     id: uuidv1(),
