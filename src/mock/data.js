@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'datadogpic.png',
     title: 'DataDog UX/UI',
     info: 'Front-End design replica of the Datadog corporate website.',
-    info2: 'Key Features include: Flexbox, Font Awesome Icons. Created using: HUGO, HTML, SCSS',
+    info2: 'Key Features include: Flexbox, Desktop / Mobile interface, Font Awesome Icons. Created using: HUGO, HTML, SCSS',
     url: 'http://aladindatadog.surge.sh',
     repo: 'https://github.com/aladin94/Datadog', 
   },
