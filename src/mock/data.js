@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
     {
     id: uuidv1(),
+    img: 'datadogpic.png',
+    title: 'DataDog UX/UI',
+    info: 'Front-End design replica of the Datadog corporate website.',
+    info2: 'Key Features include: Flexbox, Font Awesome Icons. Created using: HUGO, HTML, SCSS',
+    url: 'http://aladindatadog.surge.sh',
+    repo: 'https://github.com/aladin94/Datadog', 
+  },
+    {
+    id: uuidv1(),
     img: 'amagit.png',
     title: 'Amazon Clone',
     info: 'Full-Stack E-commerce clone website based on Amazon',
@@ -70,15 +79,6 @@ export const projectsData = [
     info2: 'Key Features include: User Authentication, Identity Protection, Typing Indicator. Created using: JavaScript, WebSockets, Express, HTML / CSS',
     url: 'https://chatterbox-messenger-app.herokuapp.com/',
     repo: 'https://github.com/aladin94/Chatterbox-2.0',
-  },
-  {
-    id: uuidv1(),
-    img: 'namastay.jpg',
-    title: 'NamaStay Calm',
-    info: 'Front-End Meditation website designed to offer users a calming experience',
-    info2: 'Key Features include: HTML5 Video / Audio, Vanilla JS, Flexbox, Font Awesome Icons. Created using: JavaScript (ES6), HTML, CSS',
-    url: 'http://namastaycalm.surge.sh',
-    repo: 'https://github.com/aladin94/NamaStayCalm', 
   }
 ];
 
