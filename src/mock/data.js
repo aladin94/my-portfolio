@@ -64,12 +64,12 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'bb.jpg',
-    title: 'Breaking Bad Fansite',
-    info: 'Front-End website based on the hit TV show Breaking Bad',
-    info2: 'Key Features include: Responsive Mobile/Desktop design, API integration, CSS Grid. Created using: JavaScript, React, Axios, HTML, CSS',
-    url: 'https://breakingbadaf.netlify.app',
-    repo: 'https://github.com/aladin94/BreakingBadProject', 
+    img: 'bomb.png',
+    title: 'BombSweeper!',
+    info: 'Front-End website based on classic MineSweeper computer game, but with a BomberMan UI',
+    info2: 'Key Features include: BomberMan UX design, CSS Grid. Created using: JavaScript, React, HTML, CSS',
+    url: 'http://bombsweeper.surge.sh',
+    repo: 'https://github.com/aladin94/minesweeper', 
   },
   {
     id: uuidv1(),
