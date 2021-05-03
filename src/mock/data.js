@@ -67,7 +67,7 @@ export const projectsData = [
     img: 'bomb.png',
     title: 'BombSweeper!',
     info: 'Front-End website based on classic MineSweeper computer game, but with a BomberMan UI',
-    info2: 'Key Features include: BomberMan UX design, CSS Grid. Created using: JavaScript, React, HTML, CSS',
+    info2: 'Key Features include: Surge FrontEnd Hosting, CSS Grid. Created using: JavaScript, React, HTML, CSS',
     url: 'http://bombsweeper.surge.sh',
     repo: 'https://github.com/aladin94/minesweeper', 
   },
