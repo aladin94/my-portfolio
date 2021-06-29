@@ -37,6 +37,24 @@ export const projectsData = [
   },
     {
     id: uuidv1(),
+    img: 'amagit.png',
+    title: 'Amazon Clone',
+    info: 'Full-Stack E-commerce clone website based on Amazon',
+    info2: 'Key Features include: User Authentication, PayPal Payment Integration, Desktop / Mobile interface. Created using: JavaScript, React, HTML, CSS, Node, FireBase',
+    url: 'https://clonealadin.web.app',
+    repo: 'https://github.com/aladin94/AmazonClone', 
+  },
+    {
+    id: uuidv1(),
+    img: 'covidpic.jpg',
+    title: 'Covid Supplies',
+    info: 'Full-Stack E-commerce website based on the Covid-19 Global pandemic',
+    info2: 'Key Features include: Stripe API integration to authenticate purchases, Swiper API for a Carousel slideshow, EJS file to maintain store items. Created using: JavaScript, Bootstrap, HTML/CSS, Node',
+    url: 'https://covidsupplies.herokuapp.com',
+    repo: 'https://github.com/aladin94/CovidSupplies', 
+  },
+    {
+    id: uuidv1(),
     img: 'datadogpic.png',
     title: 'DataDog UX/UI',
     info: 'Front-End design replica of the Datadog corporate website.',
@@ -46,24 +64,6 @@ export const projectsData = [
   },
     {
     id: uuidv1(),
-    img: 'amagit.png',
-    title: 'Amazon Clone',
-    info: 'Full-Stack E-commerce clone website based on Amazon',
-    info2: 'Key Features include: User Authentication, PayPal Payment Integration, Desktop / Mobile interface. Created using: JavaScript, React, HTML, CSS, Node, FireBase',
-    url: 'https://clonealadin.web.app',
-    repo: 'https://github.com/aladin94/AmazonClone', 
-  },
-  {
-    id: uuidv1(),
-    img: 'covidpic.jpg',
-    title: 'Covid Supplies',
-    info: 'Full-Stack E-commerce website based on the Covid-19 Global pandemic',
-    info2: 'Key Features include: Stripe API integration to authenticate purchases, Swiper API for a Carousel slideshow, EJS file to maintain store items. Created using: JavaScript, Bootstrap, HTML/CSS, Node',
-    url: 'https://covidsupplies.herokuapp.com',
-    repo: 'https://github.com/aladin94/CovidSupplies', 
-  },
-  {
-    id: uuidv1(),
     img: 'bomb.png',
     title: 'BombSweeper!',
     info: 'Front-End website based on classic MineSweeper computer game, but with a BomberMan UI',
@@ -71,7 +71,7 @@ export const projectsData = [
     url: 'http://bombsweeper.surge.sh',
     repo: 'https://github.com/aladin94/minesweeper', 
   },
-  {
+    {
     id: uuidv1(),
     img: 'snippit.jpg',
     title: 'Chatter-Box',
