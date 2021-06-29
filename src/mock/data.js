@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
     {
     id: uuidv1(),
+    img: 'bootcamppic.png',
+    title: 'Fictional Coding Bootcamp',
+    info: 'Front-End mock website for a Fictional Coding Bootcamp.',
+    info2: 'Key Features include: Bootstrap Desktop / Mobile interface, CSS Modal, Cards, MapBox API, and Bootstrap5 Icons. Created using: JavaScript, HTML, CSS',
+    url: 'http://fictionalbootcamp.surge.sh',
+    repo: 'https://github.com/aladin94/Fictional-Bootcamp', 
+  },
+    {
+    id: uuidv1(),
     img: 'datadogpic.png',
     title: 'DataDog UX/UI',
     info: 'Front-End design replica of the Datadog corporate website.',
@@ -52,15 +61,6 @@ export const projectsData = [
     info2: 'Key Features include: Stripe API integration to authenticate purchases, Swiper API for a Carousel slideshow, EJS file to maintain store items. Created using: JavaScript, Bootstrap, HTML/CSS, Node',
     url: 'https://covidsupplies.herokuapp.com',
     repo: 'https://github.com/aladin94/CovidSupplies', 
-  },
-  {
-  id: uuidv1(),
-    img: 'odinsgrill-portfolio.png',
-    title: 'OdinsGrill Restaurant',
-    info: 'Front-End website for my favorite restaurant. Utilizes the Google Developer API to incorporate Maps',
-    info2: 'Key Features include: Desktop-First modern and responsive design, API integration. Created using: JavaScript, HTML5, CSS, Node',
-    url: 'https://odinsgrill.netlify.app',
-    repo: 'https://github.com/aladin94/Odinsgrill',
   },
   {
     id: uuidv1(),
