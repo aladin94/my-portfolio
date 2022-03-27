@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
     {
     id: uuidv1(),
+    img: 'corp.png',
+    title: 'Business Analytics for Fictional Corporation',
+    info: 'Front-End mock website for a Fictional Corporation.',
+    info2: 'Key Features include: Bootstrap Desktop / Mobile interface, CSS Modal, Cards, Drop Menus, and Bootstrap5 Icons. Created using: JavaScript, HTML, CSS',
+    url: 'https://fictionalcorp.surge.sh/',
+    repo: 'https://github.com/aladin94/FictiionalCorp', 
+  },
+    {
+    id: uuidv1(),
     img: 'bootcamppic.png',
     title: 'Fictional Coding Bootcamp',
     info: 'Front-End mock website for a Fictional Coding Bootcamp.',
