@@ -38,7 +38,7 @@ export const projectsData = [
     {
     id: uuidv1(),
     img: 'bootcamppic.png',
-    title: 'Fictional Coding Bootcamp',
+    title: 'Aladin's Coding Bootcamp',
     info: 'Front-End mock website for a Fictional Coding Bootcamp.',
     info2: 'Key Features include: Bootstrap Desktop / Mobile interface, CSS Modal, Cards, MapBox API, and Bootstrap5 Icons. Created using: JavaScript, HTML, CSS',
     url: 'http://fictionalbootcamp.surge.sh',
