@@ -24,8 +24,17 @@ export const aboutData = {
   resume: 'https://aladin94.github.io/resume/',
 };
 
-// PROJECTS DATA odinsgrill-portfolio.png
+// PROJECTS DATA 
 export const projectsData = [
+    {
+    id: uuidv1(),
+    img: 'gympic.png',
+    title: 'Gym Tips to Stay Strong During Covid!',
+    info: 'MERN Stack application for Exercise Tips.',
+    info2: 'Key Features include: Material UI designs, RapidAPI usage for Exercise info, and a Mobile Friendly Interface.. Created using: React JSX, HTML, CSS',
+    url: 'https://aladinsgym.netlify.app/',
+    repo: 'https://github.com/aladin94/AladinsCovidGym', 
+  },
     {
     id: uuidv1(),
     img: 'corp.png',
